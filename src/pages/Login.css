@@ -1,0 +1,365 @@
+.login-child {
+  position: absolute;
+  top: 133.5px;
+  left: calc(50% - 620px);
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 1241px;
+  height: 1px;
+}
+.header-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-base-black);
+  width: 1365px;
+  height: 38px;
+  overflow: hidden;
+}
+.bali-melody-store1 {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  font-weight: 900;
+  color: inherit;
+}
+.frame-icon26,
+.kategori2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frame-icon26 {
+  top: 4px;
+  left: 72px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.kategori1 {
+  width: 88px;
+  position: relative;
+}
+.kategori-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper10 {
+  width: 88px;
+  position: relative;
+  height: 24px;
+}
+.kabupaten4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.kabupaten3 {
+  cursor: pointer;
+  text-decoration: none;
+  width: 90px;
+  position: relative;
+  height: 24px;
+  color: inherit;
+}
+.sanggar-container {
+  width: 69px;
+  position: relative;
+  height: 24px;
+}
+.group-container,
+.search1 {
+  font-size: var(--font-size-base);
+}
+.group-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.search1 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  color: var(--color-gray-700);
+}
+.vector-icon1 {
+  position: absolute;
+  height: 84.33%;
+  width: 92.33%;
+  top: 7.67%;
+  right: 7.67%;
+  bottom: 8%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame1 {
+  cursor: pointer;
+  text-decoration: none;
+}
+.frame-icon27,
+.frame1 {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bali-melody-store-group,
+.frame-parent40 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.bali-melody-store-group {
+  position: absolute;
+  top: 62px;
+  left: 124.7px;
+  width: 1198.7px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.header1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1365px;
+  height: 110px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary-base-black);
+  font-family: var(--font-poppins);
+}
+.gambar-gamelan-icon1 {
+  position: absolute;
+  top: 174px;
+  left: 46px;
+  width: 805px;
+  height: 781px;
+  object-fit: cover;
+}
+.selamat-datang-kembali {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.selamat-datang-kembali-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 53.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.silahkkan-masukkan-data1 {
+  margin: 0;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 417px;
+  height: 27px;
+}
+.name {
+  position: relative;
+  font-weight: 500;
+}
+.name-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child52 {
+  width: 404px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--muted);
+  box-sizing: border-box;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent42 {
+  position: absolute;
+  top: 111.7px;
+  left: 0;
+  width: 404px;
+  height: 57.5px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-smi);
+}
+.email-login,
+.password-login {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 139.4px;
+  left: 0;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--text-sm-medium-size);
+  color: var(--primary-base-black);
+}
+.password-login {
+  top: 217.9px;
+}
+.remember {
+  position: absolute;
+  top: 296px;
+  left: 0;
+}
+.dont-have-an {
+  white-space: pre-wrap;
+}
+.sign-up {
+  color: var(--color-mediumblue);
+}
+.dont-have-an-account-sign-up-wrapper,
+.dont-have-an-container {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  width: 229px;
+  height: 23.2px;
+  color: inherit;
+}
+.dont-have-an-container {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.dont-have-an-account-sign-up-wrapper {
+  top: 529px;
+  left: 94px;
+  font-size: var(--text-sm-medium-size);
+}
+.login-button {
+  position: absolute;
+  top: 331.9px;
+  left: 0;
+}
+.icons8-google-11 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.google1,
+.icons8-google-1-group {
+  display: flex;
+  justify-content: flex-start;
+}
+.icons8-google-1-group {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.google1 {
+  text-decoration: none;
+  position: absolute;
+  top: 449px;
+  left: 108px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--muted);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl);
+  font-size: var(--body-text-small-regular-size);
+  color: inherit;
+}
+.forgot-password {
+  position: absolute;
+  top: 217.9px;
+  left: 317px;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  color: var(--color-midnightblue);
+  display: inline-block;
+  width: 83px;
+  height: 16.6px;
+}
+.frame-child53,
+.or-container {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frame-child53 {
+  top: 8px;
+  left: -1px;
+  border-top: 2px solid var(--secondary);
+  width: 402px;
+  height: 2px;
+}
+.or-container {
+  top: 0;
+  left: 191px;
+  background-color: var(--primary-base-white);
+  width: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-10xs);
+}
+.line-group {
+  position: absolute;
+  top: 401px;
+  left: 0;
+  width: 400px;
+  height: 14px;
+  font-size: var(--font-size-4xs);
+}
+.frame-parent41 {
+  width: 417px;
+  position: relative;
+  height: 552.2px;
+}
+.login-inner {
+  position: absolute;
+  top: 253px;
+  left: 886px;
+  height: 583px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-base-white);
+  height: 1453px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary-base-black);
+  font-family: var(--font-poppins);
+}

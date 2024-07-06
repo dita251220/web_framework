@@ -1,0 +1,419 @@
+.categoryPageChild {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  grid-row-gap: 20px; /* Atur jarak antar baris di sini */
+  margin-top: 300px; /* Tetapkan margin atas ke grid container */
+}
+
+
+.card {
+  position: relative; /* Ganti menjadi relative */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  /* margin-top: 300px; Hapus margin-top ini */
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imageIcon {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Atur tinggi maksimum sesuai kebutuhan */
+  max-width: 200px;
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.gangsaWrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.gangsa {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rp2000000 {
+  font-size: 14px;
+  color: #888;
+}
+
+/* CSS sebelumnya untuk header dan navigasi */
+
+.headerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1365px;
+  height: 38px;
+  overflow: hidden;
+}
+
+.baliMelodyStore {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  font-weight: 900;
+  color: inherit;
+}
+
+.kategori {
+  width: 88px;
+  position: relative;
+}
+
+.kategoriWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.frameWrapper {
+  width: 88px;
+  position: relative;
+  height: 24px;
+}
+
+.kabupaten1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.kabupaten {
+  cursor: pointer;
+  text-decoration: none;
+  width: 90px;
+  position: relative;
+  height: 24px;
+  color: inherit;
+}
+
+.sanggar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sanggarWrapper {
+  width: 69px;
+  position: relative;
+  height: 24px;
+}
+
+.groupParent,
+.search {
+  font-size: var(--font-size-base);
+}
+
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+
+.search {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  color: var(--color-gray-400);
+}
+
+.vectorIcon {
+  position: absolute;
+  height: 84.33%;
+  width: 92.33%;
+  top: 7.67%;
+  right: 7.67%;
+  bottom: 8%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.frame {
+  text-decoration: none;
+}
+
+.frame,
+.frameIcon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.baliMelodyStoreParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+
+.baliMelodyStoreParent {
+  position: absolute;
+  top: 62px;
+  left: 124.7px;
+  width: 1198.7px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+
+.header,
+.home {
+  position: absolute;
+  left: 0;
+}
+
+.header {
+  top: 0;
+  width: 1365px;
+  height: 110px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.home {
+  top: 2.5px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.frameIcon1 {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.backHome {
+  cursor: pointer;
+  text-decoration: none;
+  width: 70px;
+  position: relative;
+  height: 16px;
+  color: inherit;
+}
+
+.backHomeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.kabupatenBuleleng {
+  position: relative;
+  font-weight: 900;
+  color: var(--color-black);
+}
+
+.frameGroup {
+  position: absolute;
+  top: 158px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-700);
+  font-family: var(--font-poppins);
+}
+
+.kabupatenBuleleng1 {
+  margin: 0;
+  position: absolute;
+  top: 230px;
+  left: 42px;
+  font-size: var(--font-size-13xl);
+  font-weight: 900;
+  font-family: var(--font-poppins);
+}
+
+.categoryPageInner {
+  position: absolute;
+  top: 236px;
+  left: calc(50% + 330.5px);
+  cursor: pointer;
+}
+
+.image13Icon {
+  width: 200px;
+  position: relative;
+  border-radius: var(--br-mini);
+  height: 200px;
+  object-fit: cover;
+}
+
+.gangsa {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.rp2000000 {
+  width: 118px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.01em;
+  display: flex;
+  font-family: var(--text-sm-medium);
+  align-items: center;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.card1 {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  left: 332px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--miscellaneous-alert-menu-action-sheet-separators);
+  box-sizing: border-box;
+  width: 200px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+}
+
+.card2 {
+  position: absolute;
+  top: 130px; /* Adjust top position as needed */
+  left: 664px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--miscellaneous-alert-menu-action-sheet-separators);
+  box-sizing: border-box;
+  width: 303px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+}
+
+.card3 {
+  position: absolute;
+  top: 130px; /* Adjust top position as needed */
+  left: 996px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--miscellaneous-alert-menu-action-sheet-separators);
+  box-sizing: border-box;
+  width: 303px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+}
+
+.card4,
+.card5,
+.card6,
+.card7 {
+  position: absolute;
+  top: 300px; /* Adjust top position as needed */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  border: 1px solid var(--miscellaneous-alert-menu-action-sheet-separators);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+
+.card5 {
+  left: 331px;
+}
+
+.card6 {
+  left: 663px;
+}
+
+.card7 {
+  left: 995px;
+}
+
+.cardBuleleng,
+.cardBadung,
+.cardBadung1 {
+  position: absolute;
+  top: 70px; /* Adjust top position as needed */
+  left: calc(50% - 647.5px); /* Adjust left position as needed */
+  width: 1295px; /* Adjust width as needed */
+  height: 321px; /* Adjust height as needed */
+}
+
+.gender1 {
+  margin: 0;
+}
+
+.genderTxt {
+  line-break: anywhere;
+}
+
+.categoryPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 2032px; /* Adjust height as needed */
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+

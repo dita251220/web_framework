@@ -1,0 +1,36 @@
+.circle-icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button-base1,
+.sizesm-hierarchysecondary-g {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+}
+.button-base1 {
+  box-shadow: var(--shadow-xs);
+  background-color: var(--primary-base-white);
+  border: 1px solid var(--gray-300);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+  gap: var(--gap-5xs);
+}
+.sizesm-hierarchysecondary-g {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-sm-medium-size);
+  color: var(--gray-700);
+  font-family: var(--body-text-small-regular);
+}

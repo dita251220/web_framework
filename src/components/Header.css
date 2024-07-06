@@ -1,0 +1,137 @@
+.header-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-base-black);
+  width: 1365px;
+  height: 38px;
+  overflow: hidden;
+}
+.bali-melody-store4 {
+  position: relative;
+  font-weight: 900;
+}
+.kategori4 {
+  width: 88px;
+  position: relative;
+}
+.kategori-wrapper1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper14 {
+  width: 88px;
+  position: relative;
+  height: 24px;
+}
+.kabupaten8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.kabupaten7 {
+  cursor: pointer;
+  text-decoration: none;
+  width: 90px;
+  position: relative;
+  height: 24px;
+  color: inherit;
+}
+.sanggar3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sanggar-wrapper1 {
+  width: 69px;
+  position: relative;
+  height: 24px;
+}
+.group-parent2,
+.search3 {
+  font-size: var(--font-size-base);
+}
+.group-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.search3 {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  color: var(--color-gray-700);
+}
+.vector-icon5 {
+  position: absolute;
+  height: 84.33%;
+  width: 92.33%;
+  top: 7.67%;
+  right: 7.67%;
+  bottom: 8%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame3,
+.vector-icon6 {
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame3 {
+  text-decoration: none;
+  width: 30px;
+  position: relative;
+  height: 30px;
+  flex-shrink: 0;
+}
+.vector-icon6 {
+  position: absolute;
+  height: 84.33%;
+  width: 84.33%;
+  top: 7.67%;
+  right: 8%;
+  bottom: 8%;
+  left: 7.67%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bali-melody-store-parent2,
+.frame-parent51 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.bali-melody-store-parent2 {
+  position: absolute;
+  top: 62px;
+  left: 124.7px;
+  width: 1198.7px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.header3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1365px;
+  height: 110px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary-base-black);
+  font-family: var(--font-poppins);
+}

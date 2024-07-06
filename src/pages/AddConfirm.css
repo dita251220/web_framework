@@ -1,0 +1,91 @@
+.home3 {
+  position: relative;
+  font-weight: 900;
+  cursor: pointer;
+}
+.frame-icon28 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.home-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.add-produk1 {
+  position: relative;
+  font-weight: 900;
+  color: var(--primary-base-black);
+}
+.frame-parent43 {
+  position: absolute;
+  top: 158px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.add-confirm-child {
+  position: absolute;
+  top: 133.5px;
+  left: 99.5px;
+  border-top: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  width: 1241px;
+  height: 1px;
+}
+.frame-child54 {
+  position: absolute;
+  top: 871px;
+  left: calc(50% - 104.5px);
+  cursor: pointer;
+}
+.alat-musik-berhasil {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 257px);
+  left: calc(50% - 399.5px);
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frame-child55 {
+  position: absolute;
+  top: 282px;
+  left: calc(50% - 104.5px);
+  cursor: pointer;
+}
+.frame-parent44 {
+  position: absolute;
+  top: 218px;
+  left: calc(50% - 682.5px);
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  width: 1365px;
+  height: 692px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--primary-base-black);
+}
+.add-confirm {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-base-white);
+  height: 1316px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  font-family: var(--font-poppins);
+}

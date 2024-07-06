@@ -1,0 +1,215 @@
+.sign-child {
+  position: absolute;
+  top: 133.5px;
+  left: calc(50% - 620px);
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 1241px;
+  height: 1px;
+}
+.gambar-gamelan-icon {
+  position: absolute;
+  top: 174px;
+  left: 46px;
+  width: 805px;
+  height: 781px;
+  object-fit: cover;
+}
+.ayo-mulai-sekarang {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.ayo-mulai-sekarang-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 52.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.silahkkan-masukkan-data {
+  margin: 0;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 427px;
+  height: 26px;
+}
+.frame-textfield,
+.group-inner,
+.group-item {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 110.5px;
+  left: 0;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--text-sm-medium-size);
+  color: var(--primary-base-black);
+}
+.frame-textfield,
+.group-inner {
+  top: 188.2px;
+}
+.frame-textfield {
+  top: 265.9px;
+}
+.line-div {
+  position: absolute;
+  top: 8px;
+  left: -1px;
+  border-top: 2px solid var(--secondary);
+  box-sizing: border-box;
+  width: 402px;
+  height: 2px;
+}
+.or {
+  position: relative;
+  font-weight: 500;
+}
+.or-wrapper {
+  position: absolute;
+  top: 0;
+  left: 190px;
+  background-color: var(--primary-base-white);
+  width: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.checkbox,
+.line-parent {
+  position: absolute;
+  left: 3px;
+}
+.line-parent {
+  top: 482.6px;
+  width: 400px;
+  height: 15.3px;
+  font-size: var(--font-size-4xs);
+}
+.checkbox {
+  top: 343px;
+}
+.have-an-account {
+  white-space: pre-wrap;
+}
+.log-in {
+  color: var(--color-mediumblue);
+}
+.have-an-account-container {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  color: inherit;
+}
+.have-an-account-log-in-wrapper {
+  width: 177px;
+  position: relative;
+  height: 21px;
+}
+.have-acc {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 600px;
+  left: 112px;
+  height: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--text-sm-medium-size);
+  color: inherit;
+}
+.signup {
+  position: absolute;
+  top: 388.5px;
+  left: 0;
+}
+.icons8-google-1 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.google,
+.icons8-google-1-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.icons8-google-1-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.google {
+  text-decoration: none;
+  position: absolute;
+  top: 527px;
+  left: 118px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--muted);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl);
+  cursor: pointer;
+  font-size: var(--body-text-small-regular-size);
+  color: inherit;
+}
+.frame-parent39 {
+  width: 427px;
+  position: relative;
+  height: 623px;
+}
+.group-wrapper,
+.sign-inner {
+  position: absolute;
+  height: 638px;
+}
+.group-wrapper {
+  top: 0;
+  left: 0;
+  background-color: var(--primary-base-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 64px;
+  box-sizing: border-box;
+}
+.sign-inner {
+  top: 253px;
+  left: 886px;
+  width: 404px;
+}
+.sign {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-base-white);
+  height: 1453px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary-base-black);
+  font-family: var(--font-poppins);
+}

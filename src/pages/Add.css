@@ -1,0 +1,205 @@
+.home2 {
+  position: relative;
+  font-weight: 900;
+  cursor: pointer;
+}
+.frame-icon25 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.add-produk {
+  position: relative;
+  font-weight: 900;
+  color: var(--primary-base-black);
+}
+.frame-parent38 {
+  position: absolute;
+  top: 158px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.add-child {
+  position: absolute;
+  top: 133.5px;
+  left: 99.5px;
+  border-top: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  width: 1241px;
+  height: 1px;
+}
+.silahkan-masukkan-data {
+  margin: 0;
+  position: absolute;
+  top: 232px;
+  left: calc(50% - 384.5px);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  font-family: inherit;
+}
+.attachment {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.system-icons {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.upload {
+  color: var(--color-royalblue);
+}
+.drop-here-to-container,
+.max-size-5gb {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 26px;
+}
+.max-size-5gb {
+  font-size: var(--body-text-small-regular-size);
+  line-height: 20px;
+}
+.input-field,
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.message {
+  gap: var(--gap-xs);
+}
+.input-field {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-7xs);
+  background-color: var(--primary-base-white);
+  border: 1px dashed var(--primary-gray-300);
+  padding: var(--padding-xs) 0;
+  font-size: var(--font-size-base);
+  color: var(--primary-gray-600);
+}
+.label {
+  cursor: pointer;
+}
+.input {
+  display: none;
+}
+.inputs-dropdowns {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 143.5px);
+  width: 491px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.inputs-dropdowns1,
+.inputs-dropdowns2 {
+  border: 0;
+  background-color: transparent;
+  color: var(--color-darkgray);
+}
+.inputs-dropdowns1 {
+  width: 410px;
+  position: absolute;
+  top: 117px;
+  left: calc(50% - 610.5px);
+  font-family: var(--body-text-small-regular);
+  font-size: var(--font-size-base);
+}
+.inputs-dropdowns2 {
+  top: 215px;
+}
+.inputs-dropdowns2,
+.inputs-dropdowns3,
+.inputs-dropdowns4 {
+  width: 410px;
+  position: absolute;
+  left: calc(50% - 610.5px);
+  font-family: var(--body-text-small-regular);
+  font-size: var(--font-size-base);
+}
+.inputs-dropdowns3 {
+  border: 0;
+  background-color: transparent;
+  top: 20px;
+  color: var(--color-darkgray);
+}
+.inputs-dropdowns4 {
+  top: 315px;
+  color: var(--primary-gray-600);
+}
+.frame-button {
+  position: absolute;
+  top: 383px;
+  left: calc(50% - 14.5px);
+  cursor: pointer;
+}
+.inputs-dropdowns-parent,
+.tambahkan-alat-musik {
+  position: absolute;
+  color: var(--primary-base-black);
+}
+.inputs-dropdowns-parent {
+  top: 262px;
+  left: calc(50% - 682.5px);
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  width: 1365px;
+  height: 646px;
+  overflow: hidden;
+  font-size: var(--text-sm-medium-size);
+  font-family: var(--body-text-small-regular);
+}
+.tambahkan-alat-musik {
+  margin: 0;
+  top: 193px;
+  left: calc(50% - 167.5px);
+  font-size: var(--font-size-5xl);
+  font-weight: 900;
+  font-family: inherit;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+  height: 39px;
+}
+.add {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-base-white);
+  height: 1310px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  font-family: var(--font-poppins);
+}
+.uploaded-file {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}

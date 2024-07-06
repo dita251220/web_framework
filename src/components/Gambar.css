@@ -1,0 +1,117 @@
+.fe367a78d1-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1365px;
+  height: 656.7px;
+  object-fit: cover;
+}
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 13.32%;
+  width: 6.82%;
+  top: 8.1%;
+  right: 10.85%;
+  bottom: 78.57%;
+  left: 82.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon4 {
+  height: 7.17%;
+  width: 3.67%;
+  top: 35.13%;
+  right: 47.13%;
+  bottom: 57.7%;
+  left: 49.2%;
+}
+.musik-adalah-bagian-dari-jiwa {
+  position: absolute;
+  top: 99.8px;
+  left: 95.6px;
+  width: 456.7px;
+  height: 170.3px;
+}
+.temukan-alat-musik-tradisional {
+  position: absolute;
+  top: 299.8px;
+  left: 95px;
+  width: 487.3px;
+  height: 59.1px;
+}
+.gambar1-child {
+  position: absolute;
+  top: 383px;
+  left: 94.5px;
+  cursor: pointer;
+}
+.icon {
+  width: 89.8px;
+  position: relative;
+  height: 29.9px;
+}
+.sanggar-pengerajin-icon {
+  width: 165.6px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  margin-top: -5px;
+}
+.parent {
+  height: 45.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.line-9-stroke {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+}
+.produk-alat-musik {
+  width: 152.5px;
+  position: relative;
+  height: 13.4px;
+  margin-top: -2px;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon2,
+.pembeli-icon {
+  width: 129.9px;
+  position: relative;
+  height: 34.7px;
+}
+.pembeli-icon {
+  width: 67.2px;
+  height: 13.4px;
+  margin-top: -2px;
+}
+.frame-parent48 {
+  position: absolute;
+  top: 462.2px;
+  left: 94.5px;
+  width: 546px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.gambar1 {
+  position: absolute;
+  top: 141.7px;
+  left: 0;
+  width: 1365px;
+  height: 656.7px;
+}
